@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>WISIT 14</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description"
+	content="WISIT - Workshop de Ingeniería en Sistemas y Tecnologías de Información. Organizado por UGBAR - UTN" />
+<meta name="keywords" content="wisit, workshop, ingenieria, utn, uqbar" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link
+	href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+	rel="stylesheet">
+<link
+	href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+	rel="stylesheet">
+<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.dropotron.min.js"></script>
+<script src="js/jquery.scrollgress.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-layers.min.js"></script>
+<script src="js/init.js"></script>
+<script type="text/javascript"
+	src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+	stLight.options({
+		publisher : "327f929e-a209-4f28-a7cc-a8ead8395f21",
+		doNotHash : false,
+		doNotCopy : false,
+		hashAddressBar : false
+	});
+</script>
+<script>
+/*
+	$(document).ready(function() {
+		$('.slider_wrapper')._TMS({
+			show : 0,
+			pauseOnHover : false,
+			prevBu : '.prev',
+			nextBu : '.next',
+			playBu : false,
+			duration : 800,
+			preset : 'fade',
+			pagination : true,//'.pagination',true,'<ul></ul>'
+			pagNums : false,
+			slideshow : 8000,
+			numStatus : false,
+			banners : 'fade',
+			waitBannerAnimation : false,
+			progressBar : false
+		});
+	});
+	$(document)
+			.ready(
+					function() {
+						!function() {
+							var map = [], names = [], win = $(window), header = $('header'), currClass
+							$('.content').each(function(n) {
+								map[n] = this.offsetTop
+								names[n] = $(this).attr('id')
+							})
+							win.on('scroll', function() {
+								var i = 0
+								while (map[i++] <= win.scrollTop())
+									;
+								if (currClass !== names[i - 2])
+									currClass = names[i - 2]
+								header.removeAttr("class").addClass(
+										names[i - 2])
+							})
+						}();
+					});
+	function goToByScroll(id) {
+		$('html,body').animate({
+			scrollTop : $("#" + id).offset().top
+		}, 'slow');
+	}
+	$(document).ready(function() {
+		$().UItoTop({
+			easingType : 'easeOutQuart'
+		});
+	});
+*/
+</script>
+<noscript>
+	<link rel="stylesheet" href="css/skel.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-wide.css" />
+</noscript>
+
+<link
+	href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:400italic,400,300,600,700'
+	rel='stylesheet' type='text/css'>
+<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+</head>
+<body class="landing">
+
+	<!-- Header -->
+	<header id="header" class="alt">
+		<h1>
+			<a href="index.html"><img src="images/logo.png" alt="WISIT14" /></a>
+		</h1>
+		<nav id="nav">
+			<ul>
+				<li><a onclick="goToByScroll('tracks'); return false;" href="#">Tracks
+						y novedades</a></li>
+				<li><a onclick="goToByScroll('temas'); return false;" href="#">Temas</a></li>
+				<li><a onclick="goToByScroll('inscripcion'); return false;"
+					href="#">Inscripción</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Banner -->
+	<section id="banner">
+		<h2>
+			<img src="images/logo.png" alt="WISIT14" />
+		</h2>
+		<h3>Workshop de Ingeniería en Sistemas y Tecnologías de
+			Información.</h3>
+		<article>
+			<h4>28 y 29 de noviembre</h4>
+			<p>
+				<big>Aula Magna | UTN</big><br>
+				<br>(Facultad Regional Buenos Aires)<br>Av. Medrano 951,
+				C. A. de Buenos Aires.
+			</p>
+			<a href="http://www.uqbar-project.org/" id="uqbar"><img
+				src="images/ugbar.png" alt="Con el apoyo de uqbar"></a>
+		</article>
+		<a
+			href="http://www.eventbrite.com/e/entradas-uqbar-workshop-de-ingenieria-en-sistemas-y-tecnologias-de-informacion-13195928377?aff=webUqbar"
+			target="_blank" class="button special">&iexcl;Registrate!</a> <span>Si
+			pertenecés a UTN registrate <a
+			href="http://actividades.frba.utn.edu.ar/publicacion_SInAp.php"
+			target="_blank">desde acá</a>
+		</span>
+	</section>
+	<section id="about" class="container">
+		<span><img src="images/tools.png" alt="icono"></span>
+		<h3>Un espacio de comunicación, discusión y encuentro entre
+			estudiantes, docentes, investigadores y profesionales del área
+			orientado a la innovación e investigación.</h3>
+		<div class="share">
+			<span class='st_facebook_vcount' displayText='Facebook'></span> <span
+				class='st_twitter_vcount' displayText='Tweet'></span>
+		</div>
+		<a href="#" onclick="goToByScroll('tracks'); return false;"
+			class="icondown"><i class="icon-chevron-sign-down"></i> </a>
+	</section>
+
+	<!-- Main -->
+	<section id="tracks" class="container">
+		<h2 class="whitetitle">Tracks y Novedades</h2>
+	</section>
+	<section id="temas" class="container">
+		<h2 class="title">Temas</h2>
+		<ul>
+			<li>Lenguajes de programación</li>
+			<li>Enseñanza de y con programación</li>
+			<li>Frameworks, bibliotecas y algoritmos</li>
+			<li>Metaprogramación</li>
+			<li>Implementación de lenguajes de programación</li>
+			<li>Herramientas y metodologías de desarrollo</li>
+			<li>Arquitectura de software</li>
+			<li>Modularidad de sistemas</li>
+			<li>Interfaces de usuario</li>
+			<li>Patrones de diseño</li>
+			<li>Diseño, exposición y monitoreo de APIs</li>
+			<li>Gestión de la performance de las aplicaciones</li>
+		</ul>
+		<a href="#" onclick="goToByScroll('inscripcion'); return false;"
+			class="icondown"><i class="icon-chevron-sign-down"></i> </a>
+	</section>
+
+	<section id="inscripcion" class="container">
+		<h2 class="title">Inscripcion</h2>
+		<article>
+			<h3>La asistencia al workshop es gratuita.</h3>
+			<p>Solicitaremos para la asistencia una mínima registración que
+				ayudará a la organización del evento.</p>
+			<span><img src="images/pin.png" alt="pin"></span>
+			<p>
+				El evento se llevará a cabo en el<br>
+				<b>Aula Magna de la Universidad Tecnológica Nacional,</b><br>Facultad
+				Regional Buenos Aires, que se ubica a la entrada del edificio que
+				posee la facultad en la<br>
+				<b>Av. Medrano al 951 CABA.</b>
+			</p>
+			<a
+				href="http://www.eventbrite.com/e/entradas-uqbar-workshop-de-ingenieria-en-sistemas-y-tecnologias-de-informacion-13195928377?aff=webUqbar"
+				target="_blank" class="button special">&iexcl;Registrate!</a> <span>Si
+				pertenecés a UTN registrate <a
+				href="http://actividades.frba.utn.edu.ar/publicacion_SInAp.php"
+				target="_blank">desde acá</a>
+			</span>
+		</article>
+	</section>
+	<section id="googlemaps">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.2206764550415!2d-58.4202715!3d-34.5985809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7cd547261d%3A0x60e88fc2c2496c7d!2sAv+Medrano+951%2C+Buenos+Aires%2C+Ciudad+Aut%C3%B3noma+de+Buenos+Aires%2C+Argentina!5e0!3m2!1sen!2s!4v1415582262975"
+			width="1280" height="400" frameborder="0" style="border: 0"></iframe>
+		<a href="#" onclick="goToByScroll('organizacion'); return false;"
+			class="icondown"><i class="icon-chevron-sign-down"></i> </a>
+	</section>
+
+	<section id="organizacion" class="container">
+		<h5>ORGANIZA</h5>
+		<a href="http://www.uqbar-project.org/" id="uqbar"><img
+			src="images/ugbar.png" alt="Con el apoyo de uqbar"></a>
+		<h5>
+			<span class="left">APOYAN</span> <span>AVALAN</span>
+		</h5>
+		<img src="images/avalan.jpg"
+			alt="Apoyan y Avalan UNQUI, UTN, UNSAM, CEIT " />
+	</section>
+	<!-- Footer -->
+
+	<footer id="footer">
+		<ul class="copyright">
+			<li><a href="#banner"><img src="images/logo.png"
+					alt="WISIT14" /></a></li>
+			<li><a href="#banner"><i class="icon-facebook"></i>/uqbarproject</a></li>
+			<li></li>
+		</ul>
+	</footer>
+
+</body>
+</html>
