@@ -498,7 +498,8 @@ section#temas a.icondown:hover,section#googlemaps a.icondown:hover, section#insc
 
 .landing #organizacion h5 {
 	background: #A0A0A0;
-	padding: .1em;
+	padding-top: .1em;
+	padding-bottom: .1em;
 	margin-left: 0em;
 	width: 100%;
 	margin-bottom: 2em;
