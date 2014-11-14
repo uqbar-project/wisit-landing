@@ -333,6 +333,8 @@ section#googlemaps a.icondown {
 .landing section h2.title {
 	background: #3d6aab;
 	color: white;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 .landing #inscripcion h2.title {
@@ -479,6 +481,19 @@ section#temas a.icondown:hover,section#googlemaps a.icondown:hover, section#insc
 }
 
 .landing section#organizacion{
+	height: calc(100vh - 3.2em);
+}
+
+.landing section#organizacion #organizador{
+	height: 25%
+}
+
+.landing section#organizacion #apoyadores{
+	height: 50%
+}
+
+.landing section#organizacion #footer{
+	height: 15%
 }
 
 .landing  #organizacion .button.special {
@@ -505,10 +520,10 @@ section#temas a.icondown:hover,section#googlemaps a.icondown:hover, section#insc
 .landing #organizacion h5 {
 	background: #A0A0A0;
 	padding-top: .1em;
-	padding-bottom: .1em;
+	padding-bottom: 0;
+	margin-bottom: 0em;
 	margin-left: 0em;
 	width: 100%;
-	margin-bottom: 2em;
 	color: #FFF;
 	font-size: 1.1em;
 	height: 2.3em;
@@ -520,7 +535,7 @@ section#temas a.icondown:hover,section#googlemaps a.icondown:hover, section#insc
 
 .landing #organizacion h5 span {
 	float: right;
-	margin-right: 10em
+	margin-right: 10em;
 }
 
 .landing #organizacion h5 span.left {
@@ -531,8 +546,15 @@ section#temas a.icondown:hover,section#googlemaps a.icondown:hover, section#insc
 .landing #organizacion #uqbar {
 	display: block;
 	width: 100%;
-	margin: 0 auto 1em;
+	padding: 0;
+	margin: 0 auto 0em;
 }
+
+.landing #organizacion #uqbar img{
+	padding-top: 1em;'
+	width: 10em;
+}
+
 
 section.special,article.special {
 	text-align: center;
@@ -1787,49 +1809,47 @@ body.landing #main {
 	
 }
 
-/* Footer */
+#footer {
+	background: #5F5F5F;
+	padding: 0em 0 1em 0;
+	overflow:hidden; display:block;
+}
 
-	#footer {
-		background: #5F5F5F;
-padding: 0em 0 1em 0;
-overflow:hidden; display:block;
-	}
+#footer .icons a {
+	-moz-transition: opacity 0.2s ease-in-out;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+	opacity: 0.35;
+}
 
-		#footer .icons a {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-o-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
-			transition: opacity 0.2s ease-in-out;
-			opacity: 0.35;
-		}
+#footer .icons a:hover {
+	opacity: 0.75;
+}
 
-			#footer .icons a:hover {
-				opacity: 0.75;
-			}
+#footer .copyright {
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1em;
+	margin: 2em 0 1em 0;
+	padding: 0;
+	text-align: center;
+}
 
-		#footer .copyright {
-			color: #999;
-			font-size: 0.9em;
-			line-height: 1em;
-			margin: 2em 0 1em 0;
-			padding: 0;
-			text-align: center;
-		}
+#footer .copyright a {
+	color: inherit;
+}
 
-			#footer .copyright a {
-				color: inherit;
-			}
-
-			#footer .copyright li {
-				display: inline-block;
-				list-style: none;
-				margin-left: 1em;
-				padding-left: 1em;
-				float:right;
-				color:#fff;
-				
-			}
+#footer .copyright li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1em;
+	float:right;
+	color:#fff;
+	
+}
 #footer .copyright li a {text-decoration:none;}
 #footer .copyright li a i {color: #5F5F5F;
 background: #FFF;

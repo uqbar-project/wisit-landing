@@ -82,13 +82,13 @@
 				<li><a onclick="goToByScroll('about'); return false;"
 					href="#about">Qué es?</a></li>
 				<li><a onclick="goToByScroll('tracks'); return false;"
-					href="#tracks">Charlas</a></li>
-				<li><a onclick="goToByScroll('temas'); return false;"
-					href="#temas">Temas</a></li>
+					href="#tracks">Programa</a></li>
 				<li><a onclick="goToByScroll('inscripcion'); return false;"
 					href="#inscripcion">Inscripción</a></li>
 				<li><a onclick="goToByScroll('googlemaps'); return false;"
-					href="#googlemaps">Mapa</a></li>
+					href="#googlemaps">Ubicación</a></li>
+				<li><a onclick="goToByScroll('organizacion'); return false;"
+					href="#googlemaps">Quiénes somos?</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -135,7 +135,7 @@
 
 	<!-- Main -->
 	<section id="tracks" class="container">
-		<h2 class="whitetitle">Charlas</h2>
+		<h2 class="whitetitle">Programa</h2>
 
 		<h5>Viernes</h5>
 
@@ -166,7 +166,8 @@
 						<td rowspan=3>14:30</td>
 						<td>Experiencias de la construcción de una carrera de
 							programación</td>
-						<td rowspan=3>Tutorial en Apache Spark: Clasificando tweets en realtime</td>
+						<td rowspan=3>Tutorial en Apache Spark: Clasificando tweets
+							en realtime</td>
 						<td rowspan=3>How I met your Android</td>
 					</tr>
 					<tr>
@@ -184,7 +185,8 @@
 						<td>Construyendo una infraestructura de Big Data rentable y
 							escalable</td>
 						<td rowspan=3>Webapp moderna utilizando Stack Mean</td>
-						<td rowspan=3>How I met your Android <br/> (Cont.)</td>
+						<td rowspan=3>How I met your Android <br /> (Cont.)
+						</td>
 					</tr>
 					<tr>
 						<td>Escalar sin antecedentes - Una Aventura de Microservicios
@@ -255,7 +257,7 @@
 							usando Python</td>
 						<td>Wollok – Relearning How To Teach Object-Oriented
 							Programming</td>
-						<td rowspan=2>Desarrollo Web en Grails</td>							
+						<td rowspan=2>Desarrollo Web en Grails</td>
 					</tr>
 					<tr>
 						<td>Implementación de SCJ HVM sobre STM32F4 y extensión de su
@@ -311,32 +313,6 @@
 			</table>
 		</div>
 
-		<a href="#" onclick="goToByScroll('temas'); return false;"
-			class="icondown"><i class="icon-chevron-sign-down"></i> </a>
-	</section>
-
-	<section id="temas" class="container">
-		<h2 class="title">Temas</h2>
-		<div>
-			<ul>
-				<li><div>Lenguajes de programación</div></li>
-				<li><div>Enseñanza de y con programación</div></li>
-				<li><div>Frameworks, bibliotecas y algoritmos</div></li>
-				<li><div>Metaprogramación</div></li>
-			</ul>
-			<ul>
-				<li><div>Implementación de lenguajes de programación</div></li>
-				<li><div>Herramientas y metodologías de desarrollo</div></li>
-				<li><div>Arquitectura de software</div></li>
-				<li><div>Modularidad de sistemas</div></li>
-			</ul>
-			<ul>
-				<li><div>Interfaces de usuario</div></li>
-				<li><div>Patrones de diseño</div></li>
-				<li><div>Diseño, exposición y monitoreo de APIs</div></li>
-				<li><div>Gestión de la performance de las aplicaciones</div></li>
-			</ul>
-		</div>
 		<a href="#" onclick="goToByScroll('inscripcion'); return false;"
 			class="icondown"><i class="icon-chevron-sign-down"></i> </a>
 	</section>
@@ -353,7 +329,8 @@
 					Universidad Tecnológica Nacional,</b><br>Facultad Regional Buenos
 				Aires, que se ubica a la entrada del edificio que posee la facultad
 				en la<br> <b>Av. Medrano al 951 CABA.</b> <a href="#"
-					onclick="goToByScroll('googlemaps'); return false;">Mapa</a>
+					onclick="goToByScroll('googlemaps'); return false;">Ver
+					Ubicación</a>
 			</p>
 			<a
 				href="http://www.eventbrite.com/e/entradas-uqbar-workshop-de-ingenieria-en-sistemas-y-tecnologias-de-informacion-13195928377?aff=webUqbar"
@@ -366,7 +343,7 @@
 		</article>
 	</section>
 	<section id="googlemaps">
-		<h2 class="title">Mapa</h2>
+		<h2 class="title">Ubicacion</h2>
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.2206764550415!2d-58.4202715!3d-34.5985809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7cd547261d%3A0x60e88fc2c2496c7d!2sAv+Medrano+951%2C+Buenos+Aires%2C+Ciudad+Aut%C3%B3noma+de+Buenos+Aires%2C+Argentina!5e0!3m2!1sen!2s!4v1415582262975"
 			width="1280" height="400" frameborder="0" style="border: 0"></iframe>
@@ -375,35 +352,39 @@
 	</section>
 
 	<section id="organizacion" class="container">
-		<h2 class="title" style="background-color: white">&nbsp</h2>
-		<h5>ORGANIZA</h5>
-		<a href="http://www.uqbar-project.org/" id="uqbar"><img
-			src="images/ugbar.png" alt="Con el apoyo de uqbar"></a>
-		<h5>
-			<span class="left">APOYAN</span> <span>AVALAN</span>
-		</h5>
-		<img src="images/avalan.jpg"
-			alt="Apoyan y Avalan UNQUI, UTN, UNSAM, CEIT " /> <a
-			href="http://www.eventbrite.com/e/entradas-uqbar-workshop-de-ingenieria-en-sistemas-y-tecnologias-de-informacion-13195928377?aff=webUqbar"
-			target="_blank" class="button special">&iexcl;Registrate!</a> <span>
-			Si pertenecés a la UTN registrate <a
-			href="http://actividades.frba.utn.edu.ar/publicacion_SInAp.php"
-			target="_blank">desde acá</a>
-		</span>
+		<h2 class="title">Quienes Somos</h2>
+		<div id="organizador">
+			<h5>ORGANIZA</h5>
+			<a href="http://www.uqbar-project.org/" id="uqbar"><img
+				src="images/ugbar.png" alt="uqbar-project.org"></a>
+		</div>
+		<div id="apoyadores">
+			<h5>
+				<span class="left">APOYAN</span> <span>AVALAN</span>
+			</h5>
+			<img src="images/avalan.jpg"
+				alt="Apoyan y Avalan UNQUI, UTN, UNSAM, CEIT " /> <a
+				href="http://www.eventbrite.com/e/entradas-uqbar-workshop-de-ingenieria-en-sistemas-y-tecnologias-de-informacion-13195928377?aff=webUqbar"
+				target="_blank" class="button special">&iexcl;Registrate!</a> <span>
+				Si pertenecés a la UTN registrate <a
+				href="http://actividades.frba.utn.edu.ar/publicacion_SInAp.php"
+				target="_blank">desde acá</a>
+			</span>
+		</div>
+		<div id="footer">
+			<ul class="copyright">
+				<li><a href="#banner"><img src="images/logo.png"
+						alt="WISIT14" /></a></li>
+
+				<li class="twitter"><a href="https://twitter.com/UqbarProject"><i
+						class="icon-twitter"></i>/UqbarProject</a></li>
+				<li><a href="http://facebook.com/uqbarproject"><i
+						class="icon-facebook"></i>/uqbarproject</a></li>
+			</ul>
+		</div>
 	</section>
 	<!-- Footer -->
 
-	<footer id="footer">
-		<ul class="copyright">
-			<li><a href="#banner"><img src="images/logo.png"
-					alt="WISIT14" /></a></li>
-
-			<li class="twitter"><a href="https://twitter.com/UqbarProject"><i
-					class="icon-twitter"></i>/UqbarProject</a></li>
-			<li><a href="http://facebook.com/uqbarproject"><i
-					class="icon-facebook"></i>/uqbarproject</a></li>
-		</ul>
-	</footer>
 
 </body>
 </html>
