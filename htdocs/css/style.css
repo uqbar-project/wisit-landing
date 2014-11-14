@@ -378,6 +378,12 @@ section#googlemaps a.icondown {
 	box-shadow: 0 0 5px 3px rgba(0, 0, 0, .3);
 }
 
+.landing section#tracks h5{
+	margin-top: 1em;
+	font-size: 1.5em;
+	color:white;
+}
+
 .landing section#googlemaps iframe {
 	width: 100%;
 	height: 65vh;
