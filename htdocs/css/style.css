@@ -492,7 +492,7 @@ section#sponsors a.icondown:hover {
 }
 
 .landing section#organizacion{
-	height: calc(100vh - 3.2em);
+	min-height: calc(100vh - 3.2em);
 }
 
 .landing section#organizacion #organizador{
@@ -569,6 +569,10 @@ section#sponsors a.icondown:hover {
 
 .landing #sponsors {
 	height: 100%;
+}
+
+.landing #sponsors ul {
+	list-style: none;
 }
 
 .landing #sponsors h2{
