@@ -330,6 +330,11 @@ section#googlemaps a.icondown {
 	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .3);
 }
 
+.landing section h2.whitetitle{
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
 .landing section h2.title {
 	background: #3d6aab;
 	color: white;
@@ -394,13 +399,19 @@ section#googlemaps a.icondown {
 	border-style: solid;
 }
 
-section#temas a.icondown,section#googlemaps a.icondown, section#inscripcion a.icondown {
+section#temas a.icondown,
+section#googlemaps a.icondown, 
+section#inscripcion a.icondown,
+section#sponsors a.icondown {
 	color: rgba(0, 0, 0, 0.2);
 	margin-top: 1vh;
 	height: 10 vh;
 }
 
-section#temas a.icondown:hover,section#googlemaps a.icondown:hover, section#inscripcion a.icondown:hover {
+section#temas a.icondown:hover,
+section#googlemaps a.icondown:hover, 
+section#inscripcion a.icondown:hover,
+section#sponsors a.icondown:hover {
 	color: rgba(0, 0, 0, 0.5);
 }
 
@@ -553,6 +564,19 @@ section#temas a.icondown:hover,section#googlemaps a.icondown:hover, section#insc
 .landing #organizacion #uqbar img{
 	padding-top: 1em;'
 	width: 10em;
+}
+
+
+.landing #sponsors {
+	height: 100%;
+}
+
+.landing #sponsors h2{
+	margin-bottom: 1.5em;
+}
+
+.landing #sponsors img#pinos{
+	height:8em;
 }
 
 
