@@ -579,10 +579,18 @@ section#sponsors a.icondown:hover {
 	margin-bottom: 1.5em;
 }
 
-.landing #sponsors img#pinos{
-	height:8em;
+.landing #sponsors li {
+	padding-bottom:1em;
 }
 
+.landing #sponsors img#pinos{
+	width:19em;
+}
+
+
+.landing #sponsors img#sadosky{
+	width:19em;
+}
 
 section.special,article.special {
 	text-align: center;
