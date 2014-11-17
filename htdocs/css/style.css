@@ -17,20 +17,20 @@
 
 /* Shares */
 .stButton .st-facebook-counter,
-.stButton .st-twitter-counter, 
+.stButton .st-twitter-counter,
 .stButton .st-linkedin-counter,
-.stButton .st-email-counter 
+.stButton .st-email-counter
 {
 height: 22px !important;
 width: 60px;
 }
-.stButton .stButton_gradient 
+.stButton .stButton_gradient
 {
 	height: 22px !important;
 	line-height: 22px !important;
 }
 
-.stButton .googleplus 
+.stButton .googleplus
 {
 	height: 22px !important;
 	line-height: 22px !important;
@@ -400,7 +400,7 @@ section#googlemaps a.icondown {
 }
 
 section#temas a.icondown,
-section#googlemaps a.icondown, 
+section#googlemaps a.icondown,
 section#inscripcion a.icondown,
 section#sponsors a.icondown {
 	color: rgba(0, 0, 0, 0.2);
@@ -409,7 +409,7 @@ section#sponsors a.icondown {
 }
 
 section#temas a.icondown:hover,
-section#googlemaps a.icondown:hover, 
+section#googlemaps a.icondown:hover,
 section#inscripcion a.icondown:hover,
 section#sponsors a.icondown:hover {
 	color: rgba(0, 0, 0, 0.5);
@@ -1147,7 +1147,7 @@ ul.actions.fit li>* {
 
 ul.actions.fit.small {
 	margin-left: -0.5em;
-	width: 100%;	
+	width: 100%;
 }
 
 ul.actions.fit.small li {
@@ -1364,7 +1364,7 @@ top
 
 :
 
- 
+
 
 0;
 }
@@ -1381,7 +1381,7 @@ top
 
 :
 
- 
+
 
 0;
 }
@@ -1398,7 +1398,7 @@ top
 
 :
 
- 
+
 
 0;
 }
@@ -1415,7 +1415,7 @@ top
 
 :
 
- 
+
 
 0;
 }
@@ -1432,13 +1432,13 @@ top
 
 :
 
- 
+
 
 0;
 }
 }
 #header {
-	background: rgba(206, 107, 0, .8);
+	background: rgb(206, 107, 0);
 	color: #bbb;
 	cursor: default;
 	height: 3.25em;
@@ -1500,45 +1500,45 @@ top
 }
 
 #header
- 
+
 nav
 >
 ul
 >
 li
- 
+
 a
 :not
- 
+
 (
 .button
- 
+
 )
 {
 color
 :
- 
+
 #fff
 ;
 
-	
+
 display
 :
- 
+
 inline-block
 ;
 
-	
+
 text-decoration
 :
- 
+
 none
 ;
 
-	
+
 border
 :
- 
+
 0;
 }
 #header nav>ul>li a:not (.button ).icon:before {
@@ -1551,25 +1551,25 @@ border
 }
 
 #header
- 
+
 nav
 >
 ul
 >
 li
 .active
- 
+
 a
 :not
- 
+
 (
 .button
- 
+
 )
 {
 background-color
 :
- 
+
 rgba
 (153
 ,
@@ -1640,25 +1640,25 @@ rgba
 
 #header
 .alt
- 
+
 nav
 >
 ul
 >
 li
 .active
- 
+
 a
 :not
- 
+
 (
 .button
- 
+
 )
 {
 background-color
 :
- 
+
 rgba
 (255
 ,
@@ -1811,7 +1811,7 @@ rgba
 
 /* Main */
 #main {
-	
+
 }
 
 #main>header {
@@ -1834,7 +1834,7 @@ rgba
 }
 
 body.landing #main {
-	
+
 }
 
 #footer {
@@ -1876,7 +1876,7 @@ body.landing #main {
 	padding-left: 1em;
 	float:right;
 	color:#fff;
-	
+
 }
 #footer .copyright li a {text-decoration:none;}
 #footer .copyright li a i {color: #5F5F5F;
@@ -1893,6 +1893,6 @@ display: inline-block;}
 	float: left;
 	margin-left: 3em;
 					}
-				
+
 #footer .copyright li:first-child img {width:140px;}
 
