@@ -10,6 +10,18 @@
     border: solid 1px black;
 }
 
+.programa a:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+
+.programa a{
+	color: #1F1F1F;
+	text-decoration: underline;
+	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+}
+
 .programa th {
     text-align:center;
     vertical-align: middle;

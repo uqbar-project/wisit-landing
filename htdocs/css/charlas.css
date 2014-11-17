@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+#charlas{
+	display: none;
+}
+
+#charlasPopup{
+	display: none;
+}
+
+#charlasPopup h2{
+	font-size: 1.2em;	
+	color: black;
+}
+
+#charlasPopup h3{
+	font-size: 0.8em;	
+	color: black;
+}
+
+#charlasPopup h3 span{
+	font-size: 0.8em;	
+	color: black;
+}
+
+
+#charlasPopup div{
+}
+
+#charlasPopup div div{
+	font-size: 0.7em;	
+	color: black;
+}

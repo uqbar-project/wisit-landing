@@ -22,10 +22,13 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.dropotron.min.js"></script>
 <script src="js/jquery.scrollgress.min.js"></script>
-<link href="css/style-table.css" rel="stylesheet"></link>
+<script src="js/jquery-ui.min.js"></script>
 
-<link href="css/style.css" rel="stylesheet"
-	media="only screen and (min-device-width: 801px)">
+<link href="css/jquery-ui.min.css" rel="stylesheet">
+
+<link href="css/style-table.css" rel="stylesheet" media="only screen and (min-device-width: 801px)"></link>
+<link href="css/style.css" rel="stylesheet" media="only screen and (min-device-width: 801px)"></link>
+<link href="css/charlas.css" rel="stylesheet"></link>
 
 <script type="text/javascript"
 	src="http://w.sharethis.com/button/buttons.js"></script>
@@ -39,6 +42,7 @@
 		hashAddressBar : false
 	});
 </script>
+<script type="text/javascript" src="js/charlas.js"></script>
 <script>
 	$(document)
 			.ready(
@@ -181,17 +185,17 @@
 					</tr>
 					<tr>
 						<td rowspan=3>14:30</td>
-						<td>Experiencias de la construcción de una carrera de
-							programación</td>
-						<td rowspan=3>Tutorial en Apache Spark: Clasificando tweets
-							en realtime</td>
-						<td rowspan=3>How I met your Android</td>
+						<td><a onclick="showCharla('experiencias')">Experiencias
+								de la construcción de una carrera de programación</a></td>
+						<td rowspan=3><a onclick="showCharla('spark')">Tutorial en Apache Spark: Clasificando tweets
+							en realtime</a></td>
+						<td rowspan=3><a onclick="showCharla('android')">How I met your Android</a></td>
 					</tr>
 					<tr>
-						<td>Pleasy Web: Inclusion Digital</td>
+						<td><a onclick="showCharla('pleasyWeb')">Pleasy Web: Inclusión Digital</a></td>
 					</tr>
 					<tr>
-						<td>Computadora Industrial Abierta Argentina (CIAA)</td>
+						<td><a onclick="showCharla('ciaa')">Computadora Industrial Abierta Argentina (CIAA)</a></td>
 					</tr>
 					<tr>
 						<td>16:45</td>
@@ -202,7 +206,7 @@
 						<td>Construyendo una infraestructura de Big Data rentable y
 							escalable</td>
 						<td rowspan=3>Webapp moderna utilizando Stack Mean</td>
-						<td rowspan=3>How I met your Android <br /> (Cont.)
+						<td rowspan=3><a onclick="showCharla('android')">How I met your Android <br /> (Cont.)</a>
 						</td>
 					</tr>
 					<tr>
@@ -420,6 +424,15 @@
 	</section>
 	<!-- Footer -->
 
-
+	<div id="charlas">
+	</div>
+	<div id="charlasPopup">
+		<h2></h2>
+		<h3>Autor/es: <span id="autor"></span></h3>
+		<h3>Abstract:</h3>
+		<div>
+			<div id="abstract"></div>
+		</div>
+	</div>
 </body>
 </html>
