@@ -17,6 +17,7 @@ function showCharla(idCharla){
 		  width: w,
 		  height: h,
 		  draggable:false,
+		  dialogClass: 'charlasDialog',
 		  show: { effect: "blind", duration: 800 },
 		  buttons: [
 		    {

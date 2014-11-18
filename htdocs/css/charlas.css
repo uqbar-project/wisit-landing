@@ -1,33 +1,47 @@
 @CHARSET "UTF-8";
 
-#charlas{
+#charlas {
 	display: none;
 }
 
-#charlasPopup{
+#charlasPopup {
 	display: none;
 }
 
-#charlasPopup h2{
-	font-size: 1.2em;	
+#charlasPopup h2 {
+	font-size: 1em;
 	color: black;
 }
 
-#charlasPopup h3{
-	font-size: 0.8em;	
+#charlasPopup h3 {
+	font-size: 0.7em;
 	color: black;
 }
 
-#charlasPopup h3 span{
-	font-size: 0.8em;	
+#charlasPopup h3 span#autor {
+	font-size: 1em;
 	color: black;
 }
 
-
-#charlasPopup div{
+#charlasPopup div {
+	
 }
 
-#charlasPopup div div{
-	font-size: 0.7em;	
+#charlasPopup div div {
+	font-size: 0.65em;
 	color: black;
+}
+
+.charlasDialog .ui-dialog-title {
+	font-size: 0.8em;
+}
+
+.charlasDialog .ui-widget-header {
+	background: rgba(206, 107, 0, 0.8);
+	border: 1px solid rgb(206, 107, 0);
+}
+
+.charlasDialog .ui-button{
+	font-size: 0.6em;
+	color: rgba(206, 107, 0, 1);
 }
