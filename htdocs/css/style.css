@@ -583,6 +583,10 @@ section#sponsors a.icondown:hover {
 	padding-bottom:1em;
 }
 
+.landing #sponsors img#despegar{
+        width:20em;
+}
+
 .landing #sponsors img#pinos{
 	width:19em;
 }
