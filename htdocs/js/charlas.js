@@ -4,7 +4,7 @@ function showCharla(idCharla){
 	var autorCharla = $("#charlas #" + idCharla + " h3").html();
 	var abstCharla = $("#charlas #" + idCharla + " div").html();
 	
-	$("#charlasPopup h2").html(titCharla);
+	//$("#charlasPopup h2").html(titCharla);
 	$("#charlasPopup #autor").html(autorCharla);
 	$("#charlasPopup #abstract").html(abstCharla);
 	
@@ -12,7 +12,7 @@ function showCharla(idCharla){
 	var w = $(window).width() * 0.8;
 	
 	$("#charlasPopup").dialog({
-		  title: 'Detalle de la charla',
+		  title: titCharla,
 		  modal: true,
 		  width: w,
 		  height: h,
