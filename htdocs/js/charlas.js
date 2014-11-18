@@ -11,14 +11,20 @@ function showCharla(idCharla){
 	var h = $(window).height() * 0.8;
 	var w = $(window).width() * 0.8;
 	
+	$("body").css("overflow","hidden");
+
 	$("#charlasPopup").dialog({
 		  title: titCharla,
 		  modal: true,
 		  width: w,
 		  height: h,
+		  position: { my: "center top", at: "center top+" + ($("header").height() + 10) , of: window },
 		  draggable:false,
 		  dialogClass: 'charlasDialog',
 		  show: { effect: "blind", duration: 800 },
+		  close: function(){
+		  	$("body").css("overflow","auto");
+		  },
 		  buttons: [
 		    {
 		      text: "Cerrar",
