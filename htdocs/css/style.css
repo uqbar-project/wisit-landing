@@ -561,11 +561,10 @@ section#sponsors a.icondown:hover {
 	margin: 0 auto 0em;
 }
 
-.landing #organizacion #uqbar img{
-	padding-top: 1em;'
-	width: 10em;
+.landing #organizacion #uqbar img {
+	padding: 1em;
+	width: 12em;
 }
-
 
 .landing #sponsors {
 	height: 100%;
@@ -580,7 +579,7 @@ section#sponsors a.icondown:hover {
 }
 
 .landing #sponsors li {
-	padding-bottom:1em;
+	padding-bottom: 1em;
 }
 
 .landing #sponsors img#despegar{
@@ -596,20 +595,20 @@ section#sponsors a.icondown:hover {
 }
 
 .landing #sponsors img#pinos{
-	width:19em;
+	width:12em;
 }
 
 
 .landing #sponsors img#sadosky{
-	width:19em;
+	width:12em;
 }
 
 .landing #sponsors img#ugdos{
-	width:19em;
+	width:12em;
 }
 
 .landing #sponsors img#cidi{
-	width:19em;
+	width:12em;
 }
 
 
