@@ -586,34 +586,20 @@ section#sponsors a.icondown:hover {
 }
 
 .landing #sponsors img#despegar{
-        width:24em;
+  width:24em;
 }
 
 .landing #sponsors img#avantrip{
-        width:24em;
+  width:24em;
 }
 
 .landing #sponsors img#fdv{
-        width:24em;
+  width:24em;
 }
 
-.landing #sponsors img#pinos{
-	width:12em;
+.landing #sponsors #silver img {
+	width: 12em;
 }
-
-
-.landing #sponsors img#sadosky{
-	width:12em;
-}
-
-.landing #sponsors img#ugdos{
-	width:12em;
-}
-
-.landing #sponsors img#cidi{
-	width:12em;
-}
-
 
 section.special,article.special {
 	text-align: center;
