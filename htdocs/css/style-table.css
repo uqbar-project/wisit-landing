@@ -1,13 +1,9 @@
-#containerPrograma{
+#containerPrograma {
 	margin: 0;
 	margin-left: 12.5%;
 	width: 75%;
 	opacity:0.85;
-	line-height: 125%;
-}
-
-.programa thead {
-    border: solid 1px black;
+	line-height: 90%;
 }
 
 .programa a:hover{
@@ -15,10 +11,9 @@
 	cursor: pointer;
 }
 
-
-.programa a{
+.programa a {
 	color: #1F1F1F;
-	text-decoration: underline;
+	text-decoration: none;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 }
 
@@ -31,24 +26,23 @@
     border-collapse: collapse;
     margin: 0;
     padding: 0;
-    font-size: 0.9em;
-    font-weight: bold;
+    font-size: 0.8em;
+    font-weight: 700;
 
     opacity:1;
 	color: white;
-    border: solid 1px black;
 }
 
-.programa thead tr{
+.programa thead tr {
     background-color: black;
 }
 
 .programa tr {
-    background-color: #c0c0c0;
-	border: solid 1px black;
-    table tbody tr:nth-child(2n + 1) {
-	    background-color: white;
-    };
+    background-color: white;
+}
+
+.programa tr.break {
+    background-color: #e3e3e3;
 }
 
 .programa table {
@@ -57,14 +51,14 @@
 
 .programa td {
 	margin: 0;
-	padding: 0;
+	padding: .2em;
 	opacity:1;
 	color: black;
     font-size: 0.7em;
-    font-weight: 300;
-    text-align:center;
-    border: solid 1px black;
-    vertical-align:middle;
+    font-weight: 100;
+    text-align: center;
+    border: solid 1px grey;
+    vertical-align: middle;
 }
 
 .tabla2 {
