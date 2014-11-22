@@ -528,30 +528,28 @@ section#sponsors a.icondown:hover {
 }
 
 
-.landing #organizacion h5 {
-	background: #A0A0A0;
-	padding-top: .1em;
-	padding-bottom: 0;
-	margin-bottom: 0em;
-	margin-left: 0em;
-	width: 100%;
-	color: #FFF;
-	font-size: 1.1em;
-	height: 2.3em;
-}
-
 .landing #organizacion {
 	min-height: inherit
 }
 
-.landing #organizacion h5 span {
-	float: right;
-	margin-right: 10em;
+.landing #organizacion h5 {
+	background: #A0A0A0;
+	padding: .3em;
+	margin: 0em;
+	width: 100%;
+	color: #FFF;
+	font-size: 1.1em;
 }
 
-.landing #organizacion h5 span.left {
-	float: left;
-	margin-left: 10em
+.landing #organizacion #apoyadores h5 {
+	height: 1.5em;
+	padding: 0.3em;
+}
+
+
+.landing #organizacion h5 span {
+	padding: 8em;
+	text-align: center;
 }
 
 .landing #organizacion #uqbar {
@@ -574,12 +572,17 @@ section#sponsors a.icondown:hover {
 	list-style: none;
 }
 
-.landing #sponsors h2{
+.landing #sponsors h2 {
 	margin-bottom: 1.5em;
 }
 
 .landing #sponsors li {
 	padding-bottom: 1em;
+}
+
+.landing #sponsors #silver li {
+	display: inline;
+	margin: 0em 2em;
 }
 
 .landing #sponsors img#despegar{
