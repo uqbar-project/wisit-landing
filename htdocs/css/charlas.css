@@ -4,32 +4,55 @@
 	display: none;
 }
 
-#charlasPopup {
+.charlasPopup {
 	display: none;
 }
 
-#charlasPopup h2 {
+.charlasPopup h2 {
 	font-size: 1em;
 	color: black;
 }
 
-#charlasPopup h3 {
+.charlasPopup h3 {
 	font-size: 0.7em;
 	color: black;
+	margin-bottom: 1em;
 }
 
-#charlasPopup h3 span#autor {
+.charlasPopup h4 {
+	font-size: 0.7em;
+}
+
+.charlasPopup h3 span#autor {
 	font-size: 1em;
 	color: black;
 }
 
-#charlasPopup div {
+.charlasPopup div {
 	
 }
 
-#charlasPopup div div {
+.charlasPopup div div {
 	font-size: 0.65em;
 	color: black;
+}
+
+.charlasPopup div div h4 {
+	font-size: 1.1em;
+}
+
+.charlasPopup ul {
+	list-style: none;	
+}
+
+.charlasPopup .fotoExpositor {
+	float: right;
+	height: 10em;
+}
+
+.charlasPopup .mailExpositor {
+    position: relative;
+    top: -.2em;
 }
 
 .charlasDialog .ui-dialog-title {
@@ -45,3 +68,4 @@
 	font-size: 0.6em;
 	color: rgba(206, 107, 0, 1);
 }
+
