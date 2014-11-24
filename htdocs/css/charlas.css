@@ -37,6 +37,10 @@
 	color: black;
 }
 
+.charlasPopup div div p {
+	text-align: justify;
+}
+
 .charlasPopup div div h4 {
 	font-size: 1.1em;
 }
@@ -48,6 +52,7 @@
 .charlasPopup .fotoExpositor {
 	float: right;
 	height: 10em;
+	margin-left: 1em;
 }
 
 .charlasPopup .mailExpositor {
