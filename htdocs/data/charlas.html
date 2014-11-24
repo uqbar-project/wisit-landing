@@ -606,9 +606,22 @@
 	<h3>Clara Allende y Guillermo Polito</h3>
 	<div>
 		<p>
-			La depuración interactiva es una parteimprotante del proceso de desarrollo de software para ambientes vivos como Pharo. Como tal, los Entornos de Desarrollo Integrados (IDEs) y frameworks más usados proveen medios para ayudar al desarrollador en esta tarea, por ejemplo, la introducción de un breakpoint, i.e. un momento donde la ejecución de un programa será detenida. En Pharo Smalltalk la única manera de agregar un breakpoint es insertar un envío de mensaje a la clase Halt en el código fuente. La inserción de este envío de mensajes supone los siguientes problemas: la mezcla de objetivos al insertar código de depuración entre el código de aplicación; genera ruido en las herramientas de versionado porque crea una nueva versión del código fuente; y podría causar recursiones infinitas si intentamos depurar código a nivel del sistema, como las librerías del sistema, el IDE, o el núcleo del lenguaje.
-			Para sobreponer estos problemas, desarrollamos un plugin para Pharo llamado SmartBreakpoints. SmartBreakpoints anota el Árbol de Sintaxis Abstracta (AST) del método a depurar con el código del breakpoint. Las anotaciones en los ASTs introducen breakpoints en el código fuente transparentemente para el developer y las herramientas de versionado. Adicionalmente, nuestro plugin provee un punto único de control de breakpoints. Este punto único de control se muestra beneficioso para evitar recursiones infinitas: controlamos si un breakpoint es lanzado desde el código de aplicación o no.
+			El debugging interactivo es una parte importante del proceso de desarrollo de software para ambientes vivos como Pharo. Como tal, los Entornos de Desarrollo Integrados (IDEs) y frameworks más usados proveen medios para ayudar al desarrollador en esta tarea, por ejemplo, la introducción de un breakpoint, i.e. un momento donde la ejecución de un programa será detenida. En Pharo Smalltalk la única manera de agregar un breakpoint es insertar un envío de mensaje a la clase Halt en el código fuente. La inserción de este envío de mensaje supone los siguientes problemas: mezcla conceptos al insertar código de debugging entre el código de aplicación; genera ruido en las herramientas de versionado porque crea una nueva versión del código fuente; y podría causar recursiones infinitas si intentamos debuggear código del sistema, como las librerías del sistema, el IDE, o el kernel del lenguaje.
+			Para resolver estos problemas, desarrollamos un plugin para Pharo llamado SmartBreakpoints. SmartBreakpoints anota el Árbol de Sintaxis Abstracta (AST) del método a debuggear con el código del breakpoint. Las anotaciones en los ASTs introducen breakpoints de manera transparente para el desarrollador y las herramientas de versionado. Adicionalmente, nuestro plugin provee un punto único de control de breakpoints. Este punto único de control se muestra beneficioso para evitar recursiones infinitas: controlamos si un breakpoint es lanzado desde el código de aplicación o no.
 		</p>
+		
+		<h4>Clara Allende</h4>
+		<img src="images/autores/claraAllende.jpg" class="fotoExpositor" alt="Clara Allende"/>
+		<p>
+		</p>
+
+		<h4>Información de contacto</h4>
+		<ul>
+			<li>Github: <a href="https://github.com/ClaraAllende">https://github.com/ClaraAllende</a></li>
+			<li>Smalltalkhub: <a href="http://smalltalkhub.com/#!/~ClaraAllende">http://smalltalkhub.com/#!/~ClaraAllende</a></li>
+			<li>Linkedin: <a href="https://www.linkedin.com/pub/clara-ayelen-allende/20/717/883/en">https://www.linkedin.com/pub/clara-ayelen-allende/20/717/883/en</a></li>
+			<li>E-Mail: <img src="images/mails/claraAllende.jpg" class="mailExpositor"/></li>
+		</ul>
 	</div>
 </div>
 
