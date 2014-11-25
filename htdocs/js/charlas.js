@@ -25,6 +25,9 @@ function showCharla(idCharla){
 		  close: function(){
 		  	$("body").css("overflow","auto");
 		  },
+		  focus: function(){
+			  $("#charlasPopup").scrollTop(0);
+		  },
 		  buttons: [
 		    {
 		      text: "Cerrar",
@@ -34,6 +37,7 @@ function showCharla(idCharla){
 		    }
 		  ]
 		});
+	
 }
 
 $(document).ready(function(){
