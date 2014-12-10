@@ -73,3 +73,8 @@ th.hora {
 th.laboratorio {
     width:20%
 }
+
+img.verVideo {
+	height: 25px;
+	padding-left: 5px;
+}
